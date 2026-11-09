@@ -1,0 +1,81 @@
+
+.contact {
+  background: #f4f1ff;
+}
+
+.contact-container {
+  width: min(680px, 92%);
+  margin: auto;
+}
+
+.contact-heading {
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.contact-heading p {
+  color: #77718a;
+  line-height: 1.8;
+  margin-top: 12px;
+}
+
+.contact-form {
+  background: white;
+  padding: 35px;
+  border-radius: 20px;
+  border: 1px solid #eae5f7;
+  box-shadow: 0 20px 55px #30205e0a;
+}
+
+.form-group {
+  margin-bottom: 21px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #30264d;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.form-group input,
+.form-group textarea {
+  display: block;
+  width: 100%;
+  padding: 14px 15px;
+  border: 1px solid #e0dceb;
+  border-radius: 10px;
+  color: #30264d;
+  background: #fff;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #7658e8;
+  box-shadow: 0 0 0 4px #7658e81a;
+}
+
+.form-group textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.contact-form button {
+  width: 100%;
+}
+
+.form-status {
+  margin-top: 16px;
+  color: #6041d0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+@media (max-width: 480px) {
+  .contact-form {
+    padding: 22px;
+  }
+}
